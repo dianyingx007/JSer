@@ -11,7 +11,7 @@ function url2obj(url){
     return obj;
 }
 console.log('方法一：');
-console.log(url2obj(url));
+console.log(url2obj(url));//{ id: 'dianying', key0: 'gg' }
 
 function url2obj2(url){
     var index=url.indexOf('?');
@@ -26,4 +26,5 @@ function url2obj2(url){
     return obj;
 }
 console.log('方法二：');
-console.log(url2obj2(url));
+console.log(url2obj2(url));//{ id: 'dianying', key0: 'gg' }
+/*当url为http://xx.com?ii时，即没有=时，会出现只有key，没有value*/
