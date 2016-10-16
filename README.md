@@ -17,4 +17,10 @@ js中的一些实现
 * `sum(2)(3);//5`
 
 ##01knapsack_divisible.js 01背包——可分割
-贪心算法
+采用贪心算法
+
+##prototype.js 原型链的相关问题
+###注意点：
+* prototype
+* contructor
+* new //改变_proto_
