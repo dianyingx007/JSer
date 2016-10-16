@@ -24,3 +24,9 @@ js中的一些实现
 * prototype
 * contructor
 * new //改变_proto_
+
+
+##output.js
+output是一个函数，输出一行文本。
+测试:
+`output(typeof (function(){output("Hello world!");})());    //Hello world! undefined`
