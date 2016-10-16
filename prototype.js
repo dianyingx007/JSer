@@ -14,3 +14,16 @@ function inherits(child,parent){
     child.prototype=new f();
     child.prototype.constructor=child;
 }
+
+//继承过程：
+//parent:
+function student(p){
+    this.name = p.name||'Unnamed';
+}
+//child:
+function primaryStudent(p){
+    student.call(this,p);//注意
+    this.grade = p.grade || 1;
+}
+//继承
+inherits(primaryStudent,student);
