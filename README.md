@@ -1,4 +1,4 @@
-js中的一些实现
+#js中的一些实现
 
 ##deepClone.js 深度克隆对象
 ###考点：
@@ -28,9 +28,7 @@ js中的一些实现
 
 ##output.js
 output是一个函数，输出一行文本。
-
 测试:
-
 ```javascript
 output(typeof (function(){output("Hello world!");})());
 //Hello world! undefined
