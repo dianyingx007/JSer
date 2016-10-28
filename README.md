@@ -35,3 +35,5 @@ output是一个函数，输出一行文本。
 output(typeof (function(){output("Hello world!");})());
 //Hello world! undefined
 ```
+
+##sort_quick.js 快速排序
