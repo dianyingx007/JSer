@@ -25,9 +25,9 @@
 * contructor
 * new //改变_proto_
 
-
 ##output.js
 output是一个函数，输出一行文本。
+
 测试:
 ```javascript
 output(typeof (function(){output("Hello world!");})());
